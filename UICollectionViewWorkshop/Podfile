@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+xcodeproj 'UICollectionViewWorkshop'
+
+pod 'Parse'
+
+target :UICollectionViewWorkshopTests, :exclusive => true do
+	pod 'Specta'
+	pod 'Expecta'
+	pod 'OCMockito'
+end

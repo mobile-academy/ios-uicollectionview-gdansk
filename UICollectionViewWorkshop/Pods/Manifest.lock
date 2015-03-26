@@ -1,0 +1,25 @@
+PODS:
+  - Bolts (1.1.4)
+  - Expecta (0.3.2)
+  - OCHamcrest (4.1.1)
+  - OCMockito (1.4.0):
+    - OCHamcrest (~> 4.0)
+  - Parse (1.7.0):
+    - Bolts (~> 1.1)
+  - Specta (0.4.0)
+
+DEPENDENCIES:
+  - Expecta
+  - OCMockito
+  - Parse
+  - Specta
+
+SPEC CHECKSUMS:
+  Bolts: dd9fb8433d67f5acc3b6b4d1379bbc5513d716c1
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  OCHamcrest: af1c7c5ea345de69ea6c9c2958f65f3044e5c420
+  OCMockito: 991936bb775cc4c27f063d38f5e17b9161fbd21c
+  Parse: 3c2d4e6ade7b59d31c0bc8106340c6b81b31bc0f
+  Specta: 1df326d6ec48603c77f507a0ab1f89ad2df1c582
+
+COCOAPODS: 0.36.0

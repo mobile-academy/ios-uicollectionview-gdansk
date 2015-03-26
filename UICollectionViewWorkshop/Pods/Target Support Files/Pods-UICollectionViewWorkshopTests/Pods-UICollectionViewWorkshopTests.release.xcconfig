@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(DEVELOPER_FRAMEWORKS_DIR) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks" "$(SDKROOT)/Developer/Library/Frameworks" $(inherited) $(DEVELOPER_FRAMEWORKS_DIR) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks" "$(SDKROOT)/Developer/Library/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/OCHamcrest" "${PODS_ROOT}/Headers/Public/OCMockito" "${PODS_ROOT}/Headers/Public/Parse" "${PODS_ROOT}/Headers/Public/Specta"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bolts" -isystem "${PODS_ROOT}/Headers/Public/Expecta" -isystem "${PODS_ROOT}/Headers/Public/OCHamcrest" -isystem "${PODS_ROOT}/Headers/Public/OCMockito" -isystem "${PODS_ROOT}/Headers/Public/Parse" -isystem "${PODS_ROOT}/Headers/Public/Specta"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-UICollectionViewWorkshopTests-Expecta" -l"Pods-UICollectionViewWorkshopTests-OCHamcrest" -l"Pods-UICollectionViewWorkshopTests-OCMockito" -l"Pods-UICollectionViewWorkshopTests-Specta" -framework "Foundation" -framework "XCTest"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
