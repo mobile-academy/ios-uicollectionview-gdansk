@@ -43,6 +43,7 @@
 		810864D235A8C7778AD7F7B8 /* SpeakersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086EED136EBB398BD31B5E /* SpeakersViewController.m */; };
 		8108659555BB329D11D70537 /* sp_2-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810865C3794522BF22360EBA /* sp_2-07.jpg */; };
 		81086635C7DB849E89D3CF62 /* sp_5-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810864D9393B03849CC90070 /* sp_5-09.jpg */; };
+		81086678A6B28A847CEA9B43 /* UICollectionViewFlowLayout+SpeakersLayouts.m in Sources */ = {isa = PBXBuildFile; fileRef = 810865C1BC4235194261F4CA /* UICollectionViewFlowLayout+SpeakersLayouts.m */; };
 		81086755ECF8915D7D6ECD3A /* dudek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086EF85DAEC9E8D184BD00 /* dudek.jpg */; };
 		810867A63660D2FE2DFF7B0F /* sp_41-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810862D5C3FB4D905A7BD699 /* sp_41-10.jpg */; };
 		81086834C5DB5A9E84FCA6C8 /* sp_1-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086ABC73E2AC7081DCD5C4 /* sp_1-06.jpg */; };
@@ -143,6 +144,7 @@
 		810864D9393B03849CC90070 /* sp_5-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_5-09.jpg"; sourceTree = "<group>"; };
 		81086502E20936B3A79FD082 /* PhoneRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneRootTabBarController.h; sourceTree = "<group>"; };
 		810865833353B83549EF880A /* UIColor+Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Workshop.h"; sourceTree = "<group>"; };
+		810865C1BC4235194261F4CA /* UICollectionViewFlowLayout+SpeakersLayouts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewFlowLayout+SpeakersLayouts.m"; sourceTree = "<group>"; };
 		810865C3794522BF22360EBA /* sp_2-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_2-07.jpg"; sourceTree = "<group>"; };
 		8108667B10FE6FACD9248BDE /* SpeakerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerCollectionViewCell.h; sourceTree = "<group>"; };
 		8108668D7BC937799C5A8C31 /* zubala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubala.jpg; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		81086BBF3C84AF9BFC915C69 /* wijas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wijas.jpg; sourceTree = "<group>"; };
 		81086CB20810D2B420B9E4B5 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Utilities.m"; sourceTree = "<group>"; };
+		81086EAF7E866036D0A0C3F0 /* UICollectionViewFlowLayout+SpeakersLayouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewFlowLayout+SpeakersLayouts.h"; sourceTree = "<group>"; };
 		81086EED136EBB398BD31B5E /* SpeakersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersViewController.m; sourceTree = "<group>"; };
 		81086EF85DAEC9E8D184BD00 /* dudek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dudek.jpg; sourceTree = "<group>"; };
 		945E9F3C1AD446A500A68D35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -379,6 +382,15 @@
 			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
+		81086BA6B7905A2221798746 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				810865C1BC4235194261F4CA /* UICollectionViewFlowLayout+SpeakersLayouts.m */,
+				81086EAF7E866036D0A0C3F0 /* UICollectionViewFlowLayout+SpeakersLayouts.h */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
 		81086DDEAEE41DBD94D72E3A /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
@@ -398,6 +410,7 @@
 				810867E437CF331CF4072D62 /* DataSource */,
 				81086225D43D669C0428417E /* SpeakerCollectionViewCell.m */,
 				8108667B10FE6FACD9248BDE /* SpeakerCollectionViewCell.h */,
+				81086BA6B7905A2221798746 /* Layouts */,
 			);
 			path = Speakers;
 			sourceTree = "<group>";
@@ -797,6 +810,7 @@
 				51043F042A7454963EF793BE /* GdanskConfiguration.m in Sources */,
 				51043822B6D4BA5874E0A2F0 /* Configurator.m in Sources */,
 				510432C37C8B3CE25A3733C6 /* ConfigurationFactory.m in Sources */,
+				81086678A6B28A847CEA9B43 /* UICollectionViewFlowLayout+SpeakersLayouts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
