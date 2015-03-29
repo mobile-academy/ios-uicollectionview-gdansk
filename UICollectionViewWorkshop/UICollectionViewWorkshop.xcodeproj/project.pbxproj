@@ -98,13 +98,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8108619B691A67AB7B04BD55 /* DynamicsViewController */ = {
+		8108619B691A67AB7B04BD55 /* Dynamics */ = {
 			isa = PBXGroup;
 			children = (
 				8108623058D0F9B1F24412F8 /* DynamicsViewController.m */,
 				81086BC92BA5B8D91EF14A15 /* DynamicsViewController.h */,
 			);
-			path = DynamicsViewController;
+			path = Dynamics;
 			sourceTree = "<group>";
 		};
 		8108649CEDED17A5B408F232 /* Classes */ = {
@@ -112,11 +112,11 @@
 			children = (
 				81086A28AE1D249787AB5E04 /* Utils */,
 				81086B8EAFE8CB1B4AF8A955 /* TabBarControllers */,
-				81086E2785581C556E5AA1F7 /* SpeakersViewController */,
-				81086D10FD9C72697451E253 /* AgendaViewController */,
-				81086DDEAEE41DBD94D72E3A /* CarouselViewController */,
-				81086EF37FF079890DEEF8A2 /* PhotoStreamViewController */,
-				8108619B691A67AB7B04BD55 /* DynamicsViewController */,
+				81086E2785581C556E5AA1F7 /* Speakers */,
+				81086D10FD9C72697451E253 /* Agenda */,
+				81086DDEAEE41DBD94D72E3A /* Carousel */,
+				81086EF37FF079890DEEF8A2 /* PhotoStream */,
+				8108619B691A67AB7B04BD55 /* Dynamics */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -139,40 +139,40 @@
 			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
-		81086D10FD9C72697451E253 /* AgendaViewController */ = {
+		81086D10FD9C72697451E253 /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
 				81086F8A410C4FEE43A468D5 /* AgendaViewController.m */,
 				810868CC1FE6525F28B0A0A0 /* AgendaViewController.h */,
 			);
-			path = AgendaViewController;
+			path = Agenda;
 			sourceTree = "<group>";
 		};
-		81086DDEAEE41DBD94D72E3A /* CarouselViewController */ = {
+		81086DDEAEE41DBD94D72E3A /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
 				81086CB20810D2B420B9E4B5 /* CarouselViewController.m */,
 				81086272E41ADA7B8B749177 /* CarouselViewController.h */,
 			);
-			path = CarouselViewController;
+			path = Carousel;
 			sourceTree = "<group>";
 		};
-		81086E2785581C556E5AA1F7 /* SpeakersViewController */ = {
+		81086E2785581C556E5AA1F7 /* Speakers */ = {
 			isa = PBXGroup;
 			children = (
 				81086EED136EBB398BD31B5E /* SpeakersViewController.m */,
 				810867F02C6C67D3993063E6 /* SpeakersViewController.h */,
 			);
-			path = SpeakersViewController;
+			path = Speakers;
 			sourceTree = "<group>";
 		};
-		81086EF37FF079890DEEF8A2 /* PhotoStreamViewController */ = {
+		81086EF37FF079890DEEF8A2 /* PhotoStream */ = {
 			isa = PBXGroup;
 			children = (
 				81086C933A73D2BC09E07D85 /* PhotoStreamViewController.m */,
 				810869BCFBF99BC505B47441 /* PhotoStreamViewController.h */,
 			);
-			path = PhotoStreamViewController;
+			path = PhotoStream;
 			sourceTree = "<group>";
 		};
 		A107AB411AC4A12500C6C6A2 = {
