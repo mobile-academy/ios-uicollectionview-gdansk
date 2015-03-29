@@ -9,10 +9,30 @@
 /* Begin PBXBuildFile section */
 		0CE5E28EE90C0D90A8E312E0 /* libPods-UICollectionViewWorkshopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C07E95A142AAD6A9418F80BD /* libPods-UICollectionViewWorkshopTests.a */; };
 		81086009B826CADE78C72F60 /* PhotoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086C933A73D2BC09E07D85 /* PhotoStreamViewController.m */; };
+		8108600E663E5630C4F42409 /* sp_3-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810862D7528CC5CA5330B476 /* sp_3-03.jpg */; };
 		810860475EC25CD24D05153D /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108605A6E72E491C9611B40 /* RootTabBarController.m */; };
-		8108622028FE31E3390046B0 /* UIColor+Workshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 810865317A5769D366A6AB6B /* UIColor+Workshop.m */; };
+		810861114B8FF68800335A8A /* sp_45-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086486E93A796DD0397EBE /* sp_45-12.jpg */; };
+		8108614C7D30D24431925898 /* SpeakerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086225D43D669C0428417E /* SpeakerCollectionViewCell.m */; };
+		81086170A71C2A9E2EF190B3 /* sp_1-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8108695564A3BA07D7957107 /* sp_1-01.jpg */; };
+		810861E5845F80CF942181A9 /* sp_6-05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8108609DEDBC2BBDE44519FA /* sp_6-05.jpg */; };
+		810863031A87FF827A43C2D5 /* SpeakerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086850AA82D7C2DA5D01AD /* SpeakerItem.m */; };
+		81086318A391B191475AE203 /* UIColor+Workshop.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086392463E51F9F75F1243 /* UIColor+Workshop.m */; };
+		81086454C66FD2F83A0739EE /* sp_4-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086A710B11405B1252BF03 /* sp_4-08.jpg */; };
 		810864D235A8C7778AD7F7B8 /* SpeakersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086EED136EBB398BD31B5E /* SpeakersViewController.m */; };
+		8108659555BB329D11D70537 /* sp_2-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810865C3794522BF22360EBA /* sp_2-07.jpg */; };
 		810865A2448BF6337D45991F /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086F8A410C4FEE43A468D5 /* AgendaViewController.m */; };
+		81086635C7DB849E89D3CF62 /* sp_5-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810864D9393B03849CC90070 /* sp_5-09.jpg */; };
+		81086755ECF8915D7D6ECD3A /* dudek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086EF85DAEC9E8D184BD00 /* dudek.jpg */; };
+		810867A63660D2FE2DFF7B0F /* sp_41-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810862D5C3FB4D905A7BD699 /* sp_41-10.jpg */; };
+		81086834C5DB5A9E84FCA6C8 /* sp_1-06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086ABC73E2AC7081DCD5C4 /* sp_1-06.jpg */; };
+		81086881364A8F7E2CC1028D /* oczko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810868FE61E186E6EAFC175B /* oczko.jpg */; };
+		8108689DE6B20021C54CEBFF /* sp_46-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8108668E947CA47A1F124899 /* sp_46-11.jpg */; };
+		810869DCFD6638B9D65B5C59 /* sp_2-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810862EEECBCCBAE53EF99D9 /* sp_2-02.jpg */; };
+		81086A5259AC88AFA9DE4547 /* wijas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086BBF3C84AF9BFC915C69 /* wijas.jpg */; };
+		81086A52D6416FD444C77AF2 /* zubala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8108668D7BC937799C5A8C31 /* zubala.jpg */; };
+		81086AE55B74556DD7325F4A /* UINavigationController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */; };
+		81086BA5B8E73F54385028B1 /* SpeakersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108685E9516D8C4DEEC0940 /* SpeakersDataSource.m */; };
+		81086D74BA0A9B9552EC96D9 /* sp_5-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086407E224A9D80A4DD614 /* sp_5-04.jpg */; };
 		81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CB20810D2B420B9E4B5 /* CarouselViewController.m */; };
 		81086F3DBE6147A85C734DF6 /* DynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108623058D0F9B1F24412F8 /* DynamicsViewController.m */; };
 		972A359A1137D63A3C6F3FBC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D63FB47D33D3F9EF6E8F593 /* libPods.a */; };
@@ -38,19 +58,43 @@
 		5F83237D24FA322A87506174 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6D63FB47D33D3F9EF6E8F593 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8108605A6E72E491C9611B40 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		8108609DEDBC2BBDE44519FA /* sp_6-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_6-05.jpg"; sourceTree = "<group>"; };
+		81086225D43D669C0428417E /* SpeakerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerCollectionViewCell.m; sourceTree = "<group>"; };
 		8108623058D0F9B1F24412F8 /* DynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicsViewController.m; sourceTree = "<group>"; };
-		81086239F97C87AB2148E679 /* UIColor+Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Workshop.h"; sourceTree = "<group>"; };
 		81086272E41ADA7B8B749177 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		810862D5C3FB4D905A7BD699 /* sp_41-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_41-10.jpg"; sourceTree = "<group>"; };
+		810862D7528CC5CA5330B476 /* sp_3-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_3-03.jpg"; sourceTree = "<group>"; };
+		810862EEECBCCBAE53EF99D9 /* sp_2-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_2-02.jpg"; sourceTree = "<group>"; };
 		81086385AF0944159256EB94 /* UICollectionViewWorkshop.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewWorkshop.pch; sourceTree = "<group>"; };
+		81086392463E51F9F75F1243 /* UIColor+Workshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Workshop.m"; sourceTree = "<group>"; };
+		81086407E224A9D80A4DD614 /* sp_5-04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_5-04.jpg"; sourceTree = "<group>"; };
+		8108645FAD3DF2C72F156A41 /* UINavigationController+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Utilities.h"; sourceTree = "<group>"; };
+		81086486E93A796DD0397EBE /* sp_45-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_45-12.jpg"; sourceTree = "<group>"; };
+		810864D9393B03849CC90070 /* sp_5-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_5-09.jpg"; sourceTree = "<group>"; };
 		81086502E20936B3A79FD082 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
-		810865317A5769D366A6AB6B /* UIColor+Workshop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Workshop.m"; sourceTree = "<group>"; };
+		810865833353B83549EF880A /* UIColor+Workshop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Workshop.h"; sourceTree = "<group>"; };
+		810865C3794522BF22360EBA /* sp_2-07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_2-07.jpg"; sourceTree = "<group>"; };
+		8108667B10FE6FACD9248BDE /* SpeakerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerCollectionViewCell.h; sourceTree = "<group>"; };
+		8108668D7BC937799C5A8C31 /* zubala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zubala.jpg; sourceTree = "<group>"; };
+		8108668E947CA47A1F124899 /* sp_46-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_46-11.jpg"; sourceTree = "<group>"; };
+		810866E17A3856BDB745016C /* SpeakersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersDataSource.h; sourceTree = "<group>"; };
 		810867F02C6C67D3993063E6 /* SpeakersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersViewController.h; sourceTree = "<group>"; };
+		81086850AA82D7C2DA5D01AD /* SpeakerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerItem.m; sourceTree = "<group>"; };
+		8108685E9516D8C4DEEC0940 /* SpeakersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersDataSource.m; sourceTree = "<group>"; };
 		810868CC1FE6525F28B0A0A0 /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		810868FE61E186E6EAFC175B /* oczko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oczko.jpg; sourceTree = "<group>"; };
+		8108695564A3BA07D7957107 /* sp_1-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_1-01.jpg"; sourceTree = "<group>"; };
 		810869BCFBF99BC505B47441 /* PhotoStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStreamViewController.h; sourceTree = "<group>"; };
+		81086A710B11405B1252BF03 /* sp_4-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_4-08.jpg"; sourceTree = "<group>"; };
+		81086ABC73E2AC7081DCD5C4 /* sp_1-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_1-06.jpg"; sourceTree = "<group>"; };
+		81086B9404D08143A9057878 /* SpeakerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerItem.h; sourceTree = "<group>"; };
+		81086BBF3C84AF9BFC915C69 /* wijas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wijas.jpg; sourceTree = "<group>"; };
 		81086BC92BA5B8D91EF14A15 /* DynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicsViewController.h; sourceTree = "<group>"; };
 		81086C933A73D2BC09E07D85 /* PhotoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamViewController.m; sourceTree = "<group>"; };
 		81086CB20810D2B420B9E4B5 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Utilities.m"; sourceTree = "<group>"; };
 		81086EED136EBB398BD31B5E /* SpeakersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersViewController.m; sourceTree = "<group>"; };
+		81086EF85DAEC9E8D184BD00 /* dudek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dudek.jpg; sourceTree = "<group>"; };
 		81086F8A410C4FEE43A468D5 /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
 		A107AB4A1AC4A12500C6C6A2 /* UICollectionViewWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AB4E1AC4A12500C6C6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +151,15 @@
 			path = Dynamics;
 			sourceTree = "<group>";
 		};
+		8108635CD52DF2195051533A /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */,
+				8108645FAD3DF2C72F156A41 /* UINavigationController+Utilities.h */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
 		8108649CEDED17A5B408F232 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,13 +174,56 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		81086541DAA1FE3CB7F858A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				810868FE61E186E6EAFC175B /* oczko.jpg */,
+				81086EF85DAEC9E8D184BD00 /* dudek.jpg */,
+				8108668D7BC937799C5A8C31 /* zubala.jpg */,
+				81086BBF3C84AF9BFC915C69 /* wijas.jpg */,
+				81086486E93A796DD0397EBE /* sp_45-12.jpg */,
+				810865C3794522BF22360EBA /* sp_2-07.jpg */,
+				81086A710B11405B1252BF03 /* sp_4-08.jpg */,
+				810864D9393B03849CC90070 /* sp_5-09.jpg */,
+				810862D5C3FB4D905A7BD699 /* sp_41-10.jpg */,
+				8108668E947CA47A1F124899 /* sp_46-11.jpg */,
+				81086ABC73E2AC7081DCD5C4 /* sp_1-06.jpg */,
+				810862EEECBCCBAE53EF99D9 /* sp_2-02.jpg */,
+				810862D7528CC5CA5330B476 /* sp_3-03.jpg */,
+				81086407E224A9D80A4DD614 /* sp_5-04.jpg */,
+				8108609DEDBC2BBDE44519FA /* sp_6-05.jpg */,
+				8108695564A3BA07D7957107 /* sp_1-01.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		810867E437CF331CF4072D62 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				81086850AA82D7C2DA5D01AD /* SpeakerItem.m */,
+				810866E17A3856BDB745016C /* SpeakersDataSource.h */,
+				81086B9404D08143A9057878 /* SpeakerItem.h */,
+				8108685E9516D8C4DEEC0940 /* SpeakersDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		81086A28AE1D249787AB5E04 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				810865317A5769D366A6AB6B /* UIColor+Workshop.m */,
-				81086239F97C87AB2148E679 /* UIColor+Workshop.h */,
+				81086A4914FB7A50079DBA5C /* Colors */,
+				8108635CD52DF2195051533A /* NavigationController */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		81086A4914FB7A50079DBA5C /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				81086392463E51F9F75F1243 /* UIColor+Workshop.m */,
+				810865833353B83549EF880A /* UIColor+Workshop.h */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 		81086B8EAFE8CB1B4AF8A955 /* TabBarControllers */ = {
@@ -162,6 +258,10 @@
 			children = (
 				81086EED136EBB398BD31B5E /* SpeakersViewController.m */,
 				810867F02C6C67D3993063E6 /* SpeakersViewController.h */,
+				81086541DAA1FE3CB7F858A7 /* Resources */,
+				810867E437CF331CF4072D62 /* DataSource */,
+				81086225D43D669C0428417E /* SpeakerCollectionViewCell.m */,
+				8108667B10FE6FACD9248BDE /* SpeakerCollectionViewCell.h */,
 			);
 			path = Speakers;
 			sourceTree = "<group>";
@@ -330,6 +430,22 @@
 			files = (
 				A165BC111AC4A9D000B1C426 /* Images.xcassets in Resources */,
 				A165BC131AC4AD3300B1C426 /* Default-568h@2x.png in Resources */,
+				81086881364A8F7E2CC1028D /* oczko.jpg in Resources */,
+				81086755ECF8915D7D6ECD3A /* dudek.jpg in Resources */,
+				81086A52D6416FD444C77AF2 /* zubala.jpg in Resources */,
+				81086A5259AC88AFA9DE4547 /* wijas.jpg in Resources */,
+				810861114B8FF68800335A8A /* sp_45-12.jpg in Resources */,
+				8108659555BB329D11D70537 /* sp_2-07.jpg in Resources */,
+				81086454C66FD2F83A0739EE /* sp_4-08.jpg in Resources */,
+				81086635C7DB849E89D3CF62 /* sp_5-09.jpg in Resources */,
+				810867A63660D2FE2DFF7B0F /* sp_41-10.jpg in Resources */,
+				8108689DE6B20021C54CEBFF /* sp_46-11.jpg in Resources */,
+				81086834C5DB5A9E84FCA6C8 /* sp_1-06.jpg in Resources */,
+				810869DCFD6638B9D65B5C59 /* sp_2-02.jpg in Resources */,
+				8108600E663E5630C4F42409 /* sp_3-03.jpg in Resources */,
+				81086D74BA0A9B9552EC96D9 /* sp_5-04.jpg in Resources */,
+				810861E5845F80CF942181A9 /* sp_6-05.jpg in Resources */,
+				81086170A71C2A9E2EF190B3 /* sp_1-01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,13 +528,17 @@
 			files = (
 				A107AB531AC4A12500C6C6A2 /* AppDelegate.m in Sources */,
 				A107AB501AC4A12500C6C6A2 /* main.m in Sources */,
-				8108622028FE31E3390046B0 /* UIColor+Workshop.m in Sources */,
 				810860475EC25CD24D05153D /* RootTabBarController.m in Sources */,
 				810864D235A8C7778AD7F7B8 /* SpeakersViewController.m in Sources */,
 				810865A2448BF6337D45991F /* AgendaViewController.m in Sources */,
 				81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */,
 				81086009B826CADE78C72F60 /* PhotoStreamViewController.m in Sources */,
 				81086F3DBE6147A85C734DF6 /* DynamicsViewController.m in Sources */,
+				81086318A391B191475AE203 /* UIColor+Workshop.m in Sources */,
+				81086AE55B74556DD7325F4A /* UINavigationController+Utilities.m in Sources */,
+				810863031A87FF827A43C2D5 /* SpeakerItem.m in Sources */,
+				81086BA5B8E73F54385028B1 /* SpeakersDataSource.m in Sources */,
+				8108614C7D30D24431925898 /* SpeakerCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,20 +9,21 @@
 #import "CarouselViewController.h"
 #import "PhotoStreamViewController.h"
 #import "DynamicsViewController.h"
+#import "UINavigationController+Utilities.h"
+#import "SpeakersDataSource.h"
 
 @implementation RootTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.viewControllers = @[
-            [[UINavigationController alloc] initWithRootViewController:[SpeakersViewController new]],
-            [[UINavigationController alloc] initWithRootViewController:[AgendaViewController new]],
-            [[UINavigationController alloc] initWithRootViewController:[CarouselViewController new]],
-            [[UINavigationController alloc] initWithRootViewController:[PhotoStreamViewController new]],
-            [[UINavigationController alloc] initWithRootViewController:[DynamicsViewController new]],
+            [UINavigationController withController:[SpeakersViewController withDataSource:[SpeakersDataSource new]]],
+            [UINavigationController withController:[AgendaViewController new]],
+            [UINavigationController withController:[CarouselViewController new]],
+            [UINavigationController withController:[PhotoStreamViewController new]],
+            [UINavigationController withController:[DynamicsViewController new]],
     ];
 
 }
-
 
 @end
