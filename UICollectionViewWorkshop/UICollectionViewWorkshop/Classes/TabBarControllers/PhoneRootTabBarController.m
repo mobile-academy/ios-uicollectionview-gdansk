@@ -19,7 +19,6 @@
     [super viewDidLoad];
     self.viewControllers = @[
             [UINavigationController withController:[SpeakersViewController withDataSource:[SpeakersDataSource new]]],
-            [UINavigationController withController:[AgendaViewController new]],
             [UINavigationController withController:[self calendarViewController]],
             [UINavigationController withController:[PhotoStreamViewController new]],
             [UINavigationController withController:[DynamicsViewController new]],

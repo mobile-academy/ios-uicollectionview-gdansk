@@ -27,7 +27,6 @@
 		81086454C66FD2F83A0739EE /* sp_4-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086A710B11405B1252BF03 /* sp_4-08.jpg */; };
 		810864D235A8C7778AD7F7B8 /* SpeakersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086EED136EBB398BD31B5E /* SpeakersViewController.m */; };
 		8108659555BB329D11D70537 /* sp_2-07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810865C3794522BF22360EBA /* sp_2-07.jpg */; };
-		810865A2448BF6337D45991F /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086F8A410C4FEE43A468D5 /* AgendaViewController.m */; };
 		81086635C7DB849E89D3CF62 /* sp_5-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810864D9393B03849CC90070 /* sp_5-09.jpg */; };
 		81086755ECF8915D7D6ECD3A /* dudek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086EF85DAEC9E8D184BD00 /* dudek.jpg */; };
 		810867A63660D2FE2DFF7B0F /* sp_41-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810862D5C3FB4D905A7BD699 /* sp_41-10.jpg */; };
@@ -105,7 +104,6 @@
 		810867F02C6C67D3993063E6 /* SpeakersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersViewController.h; sourceTree = "<group>"; };
 		81086850AA82D7C2DA5D01AD /* SpeakerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerItem.m; sourceTree = "<group>"; };
 		8108685E9516D8C4DEEC0940 /* SpeakersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersDataSource.m; sourceTree = "<group>"; };
-		810868CC1FE6525F28B0A0A0 /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
 		810868FE61E186E6EAFC175B /* oczko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oczko.jpg; sourceTree = "<group>"; };
 		8108695564A3BA07D7957107 /* sp_1-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_1-01.jpg"; sourceTree = "<group>"; };
 		810869BCFBF99BC505B47441 /* PhotoStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStreamViewController.h; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Utilities.m"; sourceTree = "<group>"; };
 		81086EED136EBB398BD31B5E /* SpeakersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersViewController.m; sourceTree = "<group>"; };
 		81086EF85DAEC9E8D184BD00 /* dudek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dudek.jpg; sourceTree = "<group>"; };
-		81086F8A410C4FEE43A468D5 /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
 		A107AB4A1AC4A12500C6C6A2 /* UICollectionViewWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AB4E1AC4A12500C6C6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A107AB4F1AC4A12500C6C6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -193,7 +190,6 @@
 		8108649CEDED17A5B408F232 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				81086D10FD9C72697451E253 /* Agenda */,
 				B27A95C09D6248AA00BB1726 /* Calendar */,
 				81086DDEAEE41DBD94D72E3A /* Carousel */,
 				8108619B691A67AB7B04BD55 /* Dynamics */,
@@ -266,15 +262,6 @@
 				B27A965D36C1263B078D0B71 /* PadRootTabBarController.h */,
 			);
 			path = TabBarControllers;
-			sourceTree = "<group>";
-		};
-		81086D10FD9C72697451E253 /* Agenda */ = {
-			isa = PBXGroup;
-			children = (
-				81086F8A410C4FEE43A468D5 /* AgendaViewController.m */,
-				810868CC1FE6525F28B0A0A0 /* AgendaViewController.h */,
-			);
-			path = Agenda;
 			sourceTree = "<group>";
 		};
 		81086DDEAEE41DBD94D72E3A /* Carousel */ = {
@@ -638,7 +625,6 @@
 				810864D235A8C7778AD7F7B8 /* SpeakersViewController.m in Sources */,
 				431FE9B51AD2F4320099DB7B /* SeparatorView.m in Sources */,
 				431FE9B41AD2F4320099DB7B /* BeadView.m in Sources */,
-				810865A2448BF6337D45991F /* AgendaViewController.m in Sources */,
 				81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */,
 				431FE9C11AD2F6970099DB7B /* CalendarCollectionViewCell.m in Sources */,
 				431FE9B81AD2F46E0099DB7B /* CalendarLayoutAttributes.m in Sources */,
