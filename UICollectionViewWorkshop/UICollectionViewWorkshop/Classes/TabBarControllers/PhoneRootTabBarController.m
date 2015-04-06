@@ -11,6 +11,7 @@
 #import "UINavigationController+Utilities.h"
 #import "SpeakersDataSource.h"
 #import "CalendarViewController.h"
+#import "CalendarEventsProvider.h"
 
 @implementation PhoneRootTabBarController
 
@@ -19,11 +20,18 @@
     self.viewControllers = @[
             [UINavigationController withController:[SpeakersViewController withDataSource:[SpeakersDataSource new]]],
             [UINavigationController withController:[AgendaViewController new]],
-            [UINavigationController withController:[CalendarViewController new]],
+            [UINavigationController withController:[self calendarViewController]],
             [UINavigationController withController:[PhotoStreamViewController new]],
             [UINavigationController withController:[DynamicsViewController new]],
     ];
 
+}
+
+- (CalendarViewController *)calendarViewController {
+    CalendarEventsProvider *provider = [[CalendarEventsProvider alloc] initWithDisplayedDay:[NSDate date]];
+
+    CalendarViewController *calendarViewController = [[CalendarViewController alloc] initWithCalendarEventsProvider:provider];
+    return calendarViewController;
 }
 
 @end

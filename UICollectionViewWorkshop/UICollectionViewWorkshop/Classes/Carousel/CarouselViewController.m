@@ -21,7 +21,7 @@
     return self;
 }
 
-#pragma mark -
+#pragma mark - UIViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,7 +32,12 @@
     self.collectionView.backgroundColor = [UIColor greenColor];
 }
 
-#pragma mark -
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+}
+
+#pragma mark - UICollectionView Delegate & Data Source
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 10;

@@ -6,6 +6,7 @@ inhibit_all_warnings!
 xcodeproj 'UICollectionViewWorkshop'
 
 pod 'Parse'
+pod 'MTDates'
 
 target :UICollectionViewWorkshopTests, :exclusive => true do
 	pod 'Specta'
