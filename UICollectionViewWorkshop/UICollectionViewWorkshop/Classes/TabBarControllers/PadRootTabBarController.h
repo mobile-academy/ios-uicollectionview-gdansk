@@ -3,5 +3,7 @@
  */
 #import <Foundation/Foundation.h>
 
-@interface CarouselViewController : UICollectionViewController
+
+@interface PadRootTabBarController : UITabBarController
+
 @end

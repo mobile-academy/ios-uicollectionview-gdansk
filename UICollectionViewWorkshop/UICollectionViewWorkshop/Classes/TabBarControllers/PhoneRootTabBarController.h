@@ -3,5 +3,5 @@
  */
 #import <Foundation/Foundation.h>
 
-@interface CarouselViewController : UICollectionViewController
+@interface PhoneRootTabBarController : UITabBarController
 @end

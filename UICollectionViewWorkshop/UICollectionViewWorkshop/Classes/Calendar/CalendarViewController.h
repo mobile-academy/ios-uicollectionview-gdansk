@@ -3,5 +3,6 @@
  */
 #import <Foundation/Foundation.h>
 
-@interface CarouselViewController : UICollectionViewController
+
+@interface CalendarViewController : UIViewController
 @end

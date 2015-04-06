@@ -1,20 +1,36 @@
-//
-//  AppDelegate.m
-//  UICollectionViewWorkshop
-//
-//  Created by Maciej Oczko on 26/03/15.
-//  Copyright (c) 2015 Mobile Academy. All rights reserved.
-//
+/*
+ * Copyright (c) 2015 Mobile Academy. All rights reserved.
+ */
 
 #import "AppDelegate.h"
 #import "UIColor+Workshop.h"
-#import "RootTabBarController.h"
+#import "PhoneRootTabBarController.h"
+#import "PadRootTabBarController.h"
 
 @implementation AppDelegate
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.device = [UIDevice currentDevice];
+    }
+
+    return self;
+}
+
+#pragma mark -
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [RootTabBarController new];
+    UIViewController *rootViewController = nil;
+    if (self.device.userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
+        rootViewController = [PhoneRootTabBarController new];
+    }
+    else {
+        rootViewController = [PadRootTabBarController new];
+    }
+
+    self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
     [self modifyAppearance];
     return YES;
