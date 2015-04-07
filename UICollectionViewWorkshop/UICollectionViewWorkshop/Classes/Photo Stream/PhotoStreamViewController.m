@@ -31,8 +31,8 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
         self.streamItemDownloader = [StreamItemDownloader downloaderWithDelegate:self];
         self.title = NSLocalizedString(@"Photo Stream", @"Photo Stream");
         self.tabBarItem = [[UITabBarItem alloc] initWithTitle:self.title
-                                                        image:[UIImage imageNamed:@"PhotoStream"]
-                                                          tag:0];
+                                                        image:[UIImage imageNamed:@"Camera"]
+                                                          tag:4];
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                                target:self
                                                                                                action:@selector(addBarButtonItemPressed:)];
