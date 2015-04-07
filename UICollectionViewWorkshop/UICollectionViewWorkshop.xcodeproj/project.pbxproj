@@ -56,6 +56,8 @@
 		81086D74BA0A9B9552EC96D9 /* sp_5-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086407E224A9D80A4DD614 /* sp_5-04.jpg */; };
 		81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CB20810D2B420B9E4B5 /* CarouselViewController.m */; };
 		81086F3DBE6147A85C734DF6 /* DynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108623058D0F9B1F24412F8 /* DynamicsViewController.m */; };
+		945E9F3D1AD446A500A68D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945E9F3C1AD446A500A68D35 /* UIKit.framework */; };
+		945E9F3F1AD446A900A68D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945E9F3E1AD446A900A68D35 /* Foundation.framework */; };
 		972A359A1137D63A3C6F3FBC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D63FB47D33D3F9EF6E8F593 /* libPods.a */; };
 		A107AB501AC4A12500C6C6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A107AB4F1AC4A12500C6C6A2 /* main.m */; };
 		A107AB531AC4A12500C6C6A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A107AB521AC4A12500C6C6A2 /* AppDelegate.m */; };
@@ -161,6 +163,8 @@
 		81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Utilities.m"; sourceTree = "<group>"; };
 		81086EED136EBB398BD31B5E /* SpeakersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersViewController.m; sourceTree = "<group>"; };
 		81086EF85DAEC9E8D184BD00 /* dudek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dudek.jpg; sourceTree = "<group>"; };
+		945E9F3C1AD446A500A68D35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		945E9F3E1AD446A900A68D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A107AB4A1AC4A12500C6C6A2 /* UICollectionViewWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AB4E1AC4A12500C6C6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A107AB4F1AC4A12500C6C6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945E9F3F1AD446A900A68D35 /* Foundation.framework in Frameworks */,
+				945E9F3D1AD446A500A68D35 /* UIKit.framework in Frameworks */,
 				0CE5E28EE90C0D90A8E312E0 /* libPods-UICollectionViewWorkshopTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,6 +550,8 @@
 		EB1DCB642705D9295AA31308 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				945E9F3E1AD446A900A68D35 /* Foundation.framework */,
+				945E9F3C1AD446A500A68D35 /* UIKit.framework */,
 				6D63FB47D33D3F9EF6E8F593 /* libPods.a */,
 				C07E95A142AAD6A9418F80BD /* libPods-UICollectionViewWorkshopTests.a */,
 			);

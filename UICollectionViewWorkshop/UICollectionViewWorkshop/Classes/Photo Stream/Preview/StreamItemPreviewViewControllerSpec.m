@@ -1,5 +1,6 @@
 #import "Specs.h"
 #import "StreamItemPreviewViewController.h"
+#import <UIKit/UIKit.h>
 
 SpecBegin(StreamItemPreviewViewControllerSpec)
 describe(@"StreamItemPreviewViewController", ^{
