@@ -4,7 +4,6 @@
 
 #import "PhoneRootTabBarController.h"
 #import "SpeakersViewController.h"
-#import "AgendaViewController.h"
 #import "CarouselViewController.h"
 #import "PhotoStreamViewController.h"
 #import "DynamicsViewController.h"
