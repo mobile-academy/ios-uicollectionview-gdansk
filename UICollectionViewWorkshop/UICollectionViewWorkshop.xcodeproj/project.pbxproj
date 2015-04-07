@@ -21,14 +21,17 @@
 		510431402D5A5CE3BD822955 /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 510436E1AD26E20613D913A7 /* ImageResizer.m */; };
 		510431F55466141ED87AD9BE /* StreamItemPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043B34F597E81385E648CF /* StreamItemPreviewViewController.m */; };
 		510432C37C8B3CE25A3733C6 /* ConfigurationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104388F6E4183A44691835D /* ConfigurationFactory.m */; };
+		51043439B093B5035D57C292 /* PhotoStreamLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104348CCCD01CDDD88AEF57 /* PhotoStreamLayout.m */; };
+		510434F8E971C8D4CBCA511E /* LeftLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 510433DACDCBBE73734689EB /* LeftLayout.m */; };
 		5104353B8C2F1B5FB56BB7E6 /* StreamItemPreviewViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 510431B1CC9E1F59FADDF1EF /* StreamItemPreviewViewControllerSpec.m */; };
 		5104380F6ECF25F455410B27 /* StreamItemCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043BCD2C0969342D447145 /* StreamItemCreator.m */; };
 		51043822B6D4BA5874E0A2F0 /* Configurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104377ED6A446BAFF080C47 /* Configurator.m */; };
 		510439B7ECF0880D69DAE47D /* StreamItemDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 510439708484FAEEDDD36758 /* StreamItemDownloader.m */; };
+		510439EE3FDBD9AEFAC1798D /* ColumnVariantLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104339AA6B5B83D885AE2A9 /* ColumnVariantLayout.m */; };
 		51043D28E7943AFCF173E483 /* PhotoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043408DFAF68BB6514A4F4 /* PhotoStreamViewController.m */; };
-		51043E600F1B9215BDD9BB61 /* PhotoStreamLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043E430B6E7119BB5F140D /* PhotoStreamLayout.m */; };
 		51043EBDE2F53E8DDA7E2844 /* PhotoStreamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 510437BD27C2A8D1B1CC4AF5 /* PhotoStreamCell.m */; };
 		51043EE482F303BAC596B8DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 510431CE755A2F38DAA5E0BF /* Localizable.strings */; };
+		51043EFEBA4A2DB896E5CA10 /* RightLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 510435C4B73E494B8C5BE12E /* RightLayout.m */; };
 		51043F03A21CF6BD35B6F5DF /* StreamItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104305E0B9136A77CFAC18E /* StreamItem.m */; };
 		51043F042A7454963EF793BE /* GdanskConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 510439ECD8EC7FA7A4691E66 /* GdanskConfiguration.m */; };
 		8108600E663E5630C4F42409 /* sp_3-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 810862D7528CC5CA5330B476 /* sp_3-03.jpg */; };
@@ -95,14 +98,20 @@
 		431FE9BF1AD2F6970099DB7B /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
 		431FE9C01AD2F6970099DB7B /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
 		4A5A0EE556C5D9E2E4DFB2E0 /* Pods-UICollectionViewWorkshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewWorkshopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewWorkshopTests/Pods-UICollectionViewWorkshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		51043026E4AB365CD4B84F00 /* RightLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightLayout.h; sourceTree = "<group>"; };
 		5104305E0B9136A77CFAC18E /* StreamItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItem.m; sourceTree = "<group>"; };
 		510430FBDA40F6BFF19EBCD5 /* StreamItemTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemTransformer.m; sourceTree = "<group>"; };
 		510431885F81B54FAA88F548 /* StreamItemUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemUploader.h; sourceTree = "<group>"; };
 		510431B1CC9E1F59FADDF1EF /* StreamItemPreviewViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemPreviewViewControllerSpec.m; sourceTree = "<group>"; };
 		510431CE755A2F38DAA5E0BF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "Classes/Photo Stream/Localizable.strings"; sourceTree = "<group>"; };
+		5104339AA6B5B83D885AE2A9 /* ColumnVariantLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnVariantLayout.m; sourceTree = "<group>"; };
+		510433DACDCBBE73734689EB /* LeftLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftLayout.m; sourceTree = "<group>"; };
 		51043408DFAF68BB6514A4F4 /* PhotoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamViewController.m; sourceTree = "<group>"; };
+		5104348CCCD01CDDD88AEF57 /* PhotoStreamLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamLayout.m; sourceTree = "<group>"; };
 		5104358D27A204333C3A1943 /* Configurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configurator.h; sourceTree = "<group>"; };
+		510435C4B73E494B8C5BE12E /* RightLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightLayout.m; sourceTree = "<group>"; };
 		5104368814B61694473240F9 /* StreamItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItem.h; sourceTree = "<group>"; };
+		51043690F3BEB82AD93E6085 /* PhotoStreamLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStreamLayout.h; sourceTree = "<group>"; };
 		510436E1AD26E20613D913A7 /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
 		5104377ED6A446BAFF080C47 /* Configurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configurator.m; sourceTree = "<group>"; };
 		510437BD27C2A8D1B1CC4AF5 /* PhotoStreamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamCell.m; sourceTree = "<group>"; };
@@ -110,11 +119,11 @@
 		5104388F6E4183A44691835D /* ConfigurationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationFactory.m; sourceTree = "<group>"; };
 		510438CF164155B6ED7F3A96 /* GdanskConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GdanskConfiguration.h; sourceTree = "<group>"; };
 		510438F5C657C6D2CF63BC1A /* StreamItemPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemPreviewViewController.h; sourceTree = "<group>"; };
+		5104394B1061267B0C9AD8CF /* ColumnVariantLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnVariantLayout.h; sourceTree = "<group>"; };
 		5104394C122B8F689E7CF549 /* StreamItemCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemCreator.h; sourceTree = "<group>"; };
 		510439708484FAEEDDD36758 /* StreamItemDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemDownloader.m; sourceTree = "<group>"; };
 		510439ECD8EC7FA7A4691E66 /* GdanskConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GdanskConfiguration.m; sourceTree = "<group>"; };
 		51043A3D1C6F63B4237E6D9C /* PhotoStreamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStreamCell.h; sourceTree = "<group>"; };
-		51043A6CFD385632BA60148C /* PhotoStreamLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoStreamLayout.h; sourceTree = "<group>"; };
 		51043B13C1DF0426DC2989CB /* ConfigurationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationFactory.h; sourceTree = "<group>"; };
 		51043B34F597E81385E648CF /* StreamItemPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemPreviewViewController.m; sourceTree = "<group>"; };
 		51043B57BFD3720CB8C8777B /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
@@ -123,9 +132,9 @@
 		51043CC5C9E773A769025E52 /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
 		51043D5A7ACF39BB172C270E /* PhotoStreamViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamViewControllerSpec.m; sourceTree = "<group>"; };
 		51043DB2799F9F230351BB79 /* StreamItemTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemTransformer.h; sourceTree = "<group>"; };
-		51043E430B6E7119BB5F140D /* PhotoStreamLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamLayout.m; sourceTree = "<group>"; };
 		51043E77440F1D644772D7AB /* StreamItemDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemDownloader.h; sourceTree = "<group>"; };
 		51043F02674B9355374670C9 /* StreamItemUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemUploader.m; sourceTree = "<group>"; };
+		51043FA175459BB8CAB0DC48 /* LeftLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftLayout.h; sourceTree = "<group>"; };
 		5F83237D24FA322A87506174 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6D63FB47D33D3F9EF6E8F593 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8108605A6E72E491C9611B40 /* PhoneRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneRootTabBarController.m; sourceTree = "<group>"; };
@@ -236,8 +245,7 @@
 			children = (
 				51043A3D1C6F63B4237E6D9C /* PhotoStreamCell.h */,
 				510437BD27C2A8D1B1CC4AF5 /* PhotoStreamCell.m */,
-				51043A6CFD385632BA60148C /* PhotoStreamLayout.h */,
-				51043E430B6E7119BB5F140D /* PhotoStreamLayout.m */,
+				5104391B204CCE6DB3E15D6C /* Layouts */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -262,6 +270,21 @@
 				5104388F6E4183A44691835D /* ConfigurationFactory.m */,
 			);
 			path = "App Configuration";
+			sourceTree = "<group>";
+		};
+		5104391B204CCE6DB3E15D6C /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				5104348CCCD01CDDD88AEF57 /* PhotoStreamLayout.m */,
+				51043690F3BEB82AD93E6085 /* PhotoStreamLayout.h */,
+				510433DACDCBBE73734689EB /* LeftLayout.m */,
+				510435C4B73E494B8C5BE12E /* RightLayout.m */,
+				5104339AA6B5B83D885AE2A9 /* ColumnVariantLayout.m */,
+				51043FA175459BB8CAB0DC48 /* LeftLayout.h */,
+				51043026E4AB365CD4B84F00 /* RightLayout.h */,
+				5104394B1061267B0C9AD8CF /* ColumnVariantLayout.h */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 		510439DDF95332A035712C83 /* Preview */ = {
@@ -786,7 +809,6 @@
 				B27A9125E44405F09B5D1085 /* CarouselCollectionViewLayout.m in Sources */,
 				510431402D5A5CE3BD822955 /* ImageResizer.m in Sources */,
 				51043EBDE2F53E8DDA7E2844 /* PhotoStreamCell.m in Sources */,
-				51043E600F1B9215BDD9BB61 /* PhotoStreamLayout.m in Sources */,
 				51043F03A21CF6BD35B6F5DF /* StreamItem.m in Sources */,
 				5104380F6ECF25F455410B27 /* StreamItemCreator.m in Sources */,
 				510430CB905269641AC639F1 /* StreamItemUploader.m in Sources */,
@@ -797,6 +819,10 @@
 				51043F042A7454963EF793BE /* GdanskConfiguration.m in Sources */,
 				51043822B6D4BA5874E0A2F0 /* Configurator.m in Sources */,
 				510432C37C8B3CE25A3733C6 /* ConfigurationFactory.m in Sources */,
+				51043439B093B5035D57C292 /* PhotoStreamLayout.m in Sources */,
+				510434F8E971C8D4CBCA511E /* LeftLayout.m in Sources */,
+				51043EFEBA4A2DB896E5CA10 /* RightLayout.m in Sources */,
+				510439EE3FDBD9AEFAC1798D /* ColumnVariantLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

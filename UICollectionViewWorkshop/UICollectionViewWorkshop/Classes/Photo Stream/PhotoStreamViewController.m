@@ -5,13 +5,15 @@
 
 #import "PhotoStreamViewController.h"
 #import "StreamItem.h"
-#import "PhotoStreamLayout.h"
 #import "PhotoStreamCell.h"
 #import "StreamItemPreviewViewController.h"
+#import "RightLayout.h"
+#import "LeftLayout.h"
 
 @interface PhotoStreamViewController ()
 @property(nonatomic, strong) UIRefreshControl *refreshControl;
 @property(nonatomic, strong) NSMutableArray *streamItems;
+@property(nonatomic, assign) BOOL layoutToggle;
 @end
 
 @implementation PhotoStreamViewController
@@ -23,8 +25,7 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
 #pragma mark - Object life cycle
 
 - (id)init {
-    PhotoStreamLayout *layout = [[PhotoStreamLayout alloc] init];
-    self = [super initWithCollectionViewLayout:layout];
+    self = [super initWithCollectionViewLayout:[LeftLayout new]];
     if (self) {
         self.streamItemUploader = [StreamItemUploader uploaderWithDelegate:self];
         self.streamItemCreator = [StreamItemCreator creatorWithDelegate:self];
@@ -36,6 +37,10 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
         self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
                                                                                                target:self
                                                                                                action:@selector(addBarButtonItemPressed:)];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Switch"
+                                                                                 style:UIBarButtonItemStyleDone
+                                                                                target:self
+                                                                                action:@selector(changeLayoutPressed:)];
     }
     return self;
 }
@@ -73,6 +78,16 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
 
 - (void)didPullToRefresh:(UIRefreshControl *)sender {
     [self.streamItemDownloader downloadStreamItems];
+}
+
+- (void)changeLayoutPressed:(UIBarButtonItem *)sender {
+    [self.collectionView setCollectionViewLayout:[self currentLayout] animated:YES completion:^(BOOL finished) {
+    }];
+}
+
+- (UICollectionViewLayout *)currentLayout {
+    self.layoutToggle = !self.layoutToggle;
+    return self.layoutToggle ? [RightLayout new] : [LeftLayout new];
 }
 
 #pragma mark - UICollectionViewDataSource
