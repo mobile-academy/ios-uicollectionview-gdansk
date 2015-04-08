@@ -8,6 +8,7 @@
 #import "PhotoStreamLayout.h"
 #import "PhotoStreamCell.h"
 #import "StreamItemPreviewViewController.h"
+#import "StreamItemPreviewLayout.h"
 
 @interface PhotoStreamViewController ()
 @property(nonatomic, strong) UIRefreshControl *refreshControl;
@@ -65,6 +66,10 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
     self.collectionView.alwaysBounceVertical = YES;
 }
 
+- (PhotoStreamLayout *)photoStreamLayout {
+    return (PhotoStreamLayout *) self.collectionView.collectionViewLayout;
+}
+
 #pragma mark - Actions
 
 - (void)addBarButtonItemPressed:(UIBarButtonItem *)sender {
@@ -94,6 +99,7 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
     StreamItem *streamItem = self.streamItems[(NSUInteger) indexPath.item];
     StreamItemPreviewViewController *streamItemViewController = [[StreamItemPreviewViewController alloc] initWithStreamItem:streamItem];
     streamItemViewController.useLayoutToLayoutNavigationTransitions = YES;
+    self.photoStreamLayout.presentedIndexPath = indexPath;
     [self.navigationController pushViewController:streamItemViewController animated:YES];
 }
 

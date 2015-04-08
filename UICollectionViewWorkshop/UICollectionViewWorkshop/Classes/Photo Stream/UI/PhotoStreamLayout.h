@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
+extern CGSize const PhotoStreamLayoutItemSize;
 
 @interface PhotoStreamLayout : UICollectionViewFlowLayout
+@property(nonatomic, strong) NSIndexPath *presentedIndexPath;
 @end

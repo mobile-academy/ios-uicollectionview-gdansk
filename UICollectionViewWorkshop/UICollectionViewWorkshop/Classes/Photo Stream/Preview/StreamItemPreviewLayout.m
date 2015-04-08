@@ -3,6 +3,7 @@
 //
 
 #import "StreamItemPreviewLayout.h"
+#import "PhotoStreamLayout.h"
 
 @interface StreamItemPreviewLayout ()
 @property(nonatomic, strong) NSMutableArray *layoutAttributes;
@@ -23,7 +24,7 @@
         UICollectionViewLayoutAttributes *attributes =
             [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
         attributes.center = center;
-        attributes.size = self.itemSize;
+        [self adjustAttributes:attributes forIndexPath:indexPath];
         [self.layoutAttributes addObject:attributes];
     }
 }
@@ -45,4 +46,35 @@
     return self.collectionView.bounds.size;
 }
 
+- (UICollectionViewLayoutAttributes *)finalLayoutAttributesForDisappearingItemAtIndexPath:(NSIndexPath *)itemIndexPath {
+    UICollectionViewLayoutAttributes *attributes = self.layoutAttributes[(NSUInteger) itemIndexPath.item];
+    if (![self isIndexPathSelected:itemIndexPath]) {
+        attributes.size = PhotoStreamLayoutItemSize;
+    }
+    return attributes;
+}
+
+
+#pragma mark - Helpers
+
+- (void)adjustAttributes:(UICollectionViewLayoutAttributes *)attributes forIndexPath:(NSIndexPath *)indexPath {
+    if ([self isIndexPathSelected:indexPath]) {
+        attributes.size = self.itemSize;
+        attributes.alpha = 1.0f;
+    } else {
+        attributes.size = CGSizeZero;
+        attributes.alpha = 0.0f;
+    }
+}
+
+- (BOOL)isIndexPathSelected:(NSIndexPath *)indexPath {
+    for (NSIndexPath *selectedIndexPath in self.collectionView.indexPathsForSelectedItems) {
+        if ([selectedIndexPath isEqual:indexPath]) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
 @end
+
