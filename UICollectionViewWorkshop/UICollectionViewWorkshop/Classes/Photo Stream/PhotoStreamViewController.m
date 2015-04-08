@@ -93,8 +93,8 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     StreamItem *streamItem = self.streamItems[(NSUInteger) indexPath.item];
     StreamItemPreviewViewController *streamItemViewController = [[StreamItemPreviewViewController alloc] initWithStreamItem:streamItem];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:streamItemViewController];
-    [self presentViewController:navigationController animated:YES completion:nil];
+    streamItemViewController.useLayoutToLayoutNavigationTransitions = YES;
+    [self.navigationController pushViewController:streamItemViewController animated:YES];
 }
 
 #pragma mark - StreamItemDownloaderDelegate
