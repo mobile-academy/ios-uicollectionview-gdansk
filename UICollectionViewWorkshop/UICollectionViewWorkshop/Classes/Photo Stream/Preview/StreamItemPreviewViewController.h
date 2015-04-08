@@ -8,10 +8,9 @@
 
 @class StreamItem;
 
-@interface StreamItemPreviewViewController : UIViewController
+@interface StreamItemPreviewViewController : UICollectionViewController
 @property(nonatomic, strong) StreamItem *streamItem;
 
 - (instancetype)initWithStreamItem:(StreamItem *)streamItem;
-+ (instancetype)controllerWithStreamItem:(StreamItem *)streamItem;
 
 @end

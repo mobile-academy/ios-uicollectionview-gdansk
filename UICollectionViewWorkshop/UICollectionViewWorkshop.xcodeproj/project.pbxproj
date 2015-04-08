@@ -27,6 +27,7 @@
 		510439B7ECF0880D69DAE47D /* StreamItemDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 510439708484FAEEDDD36758 /* StreamItemDownloader.m */; };
 		51043D28E7943AFCF173E483 /* PhotoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043408DFAF68BB6514A4F4 /* PhotoStreamViewController.m */; };
 		51043E600F1B9215BDD9BB61 /* PhotoStreamLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043E430B6E7119BB5F140D /* PhotoStreamLayout.m */; };
+		51043E7565828C559CEB84E7 /* StreamItemPreviewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043DD01F6F2D9E95350235 /* StreamItemPreviewLayout.m */; };
 		51043EBDE2F53E8DDA7E2844 /* PhotoStreamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 510437BD27C2A8D1B1CC4AF5 /* PhotoStreamCell.m */; };
 		51043EE482F303BAC596B8DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 510431CE755A2F38DAA5E0BF /* Localizable.strings */; };
 		51043F03A21CF6BD35B6F5DF /* StreamItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104305E0B9136A77CFAC18E /* StreamItem.m */; };
@@ -101,6 +102,7 @@
 		510431B1CC9E1F59FADDF1EF /* StreamItemPreviewViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemPreviewViewControllerSpec.m; sourceTree = "<group>"; };
 		510431CE755A2F38DAA5E0BF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "Classes/Photo Stream/Localizable.strings"; sourceTree = "<group>"; };
 		51043408DFAF68BB6514A4F4 /* PhotoStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamViewController.m; sourceTree = "<group>"; };
+		510434CF5FFE88DF4C4614B4 /* StreamItemPreviewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemPreviewLayout.h; sourceTree = "<group>"; };
 		5104358D27A204333C3A1943 /* Configurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configurator.h; sourceTree = "<group>"; };
 		5104368814B61694473240F9 /* StreamItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItem.h; sourceTree = "<group>"; };
 		510436E1AD26E20613D913A7 /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		51043CC5C9E773A769025E52 /* ImageResizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageResizer.h; sourceTree = "<group>"; };
 		51043D5A7ACF39BB172C270E /* PhotoStreamViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamViewControllerSpec.m; sourceTree = "<group>"; };
 		51043DB2799F9F230351BB79 /* StreamItemTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemTransformer.h; sourceTree = "<group>"; };
+		51043DD01F6F2D9E95350235 /* StreamItemPreviewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemPreviewLayout.m; sourceTree = "<group>"; };
 		51043E430B6E7119BB5F140D /* PhotoStreamLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamLayout.m; sourceTree = "<group>"; };
 		51043E77440F1D644772D7AB /* StreamItemDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemDownloader.h; sourceTree = "<group>"; };
 		51043F02674B9355374670C9 /* StreamItemUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemUploader.m; sourceTree = "<group>"; };
@@ -270,6 +273,8 @@
 				510438F5C657C6D2CF63BC1A /* StreamItemPreviewViewController.h */,
 				51043B34F597E81385E648CF /* StreamItemPreviewViewController.m */,
 				510431B1CC9E1F59FADDF1EF /* StreamItemPreviewViewControllerSpec.m */,
+				51043DD01F6F2D9E95350235 /* StreamItemPreviewLayout.m */,
+				510434CF5FFE88DF4C4614B4 /* StreamItemPreviewLayout.h */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -797,6 +802,7 @@
 				51043F042A7454963EF793BE /* GdanskConfiguration.m in Sources */,
 				51043822B6D4BA5874E0A2F0 /* Configurator.m in Sources */,
 				510432C37C8B3CE25A3733C6 /* ConfigurationFactory.m in Sources */,
+				51043E7565828C559CEB84E7 /* StreamItemPreviewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
