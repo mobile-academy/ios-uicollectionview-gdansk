@@ -139,6 +139,14 @@ NSString *const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCel
     return cell;
 }
 
+/* TODO uncomment to return custom transition layout
+- (UICollectionViewTransitionLayout *)collectionView:(UICollectionView *)collectionView
+                        transitionLayoutForOldLayout:(UICollectionViewLayout *)fromLayout
+                                           newLayout:(UICollectionViewLayout *)toLayout {
+    return //TODO create a subclass of UICollectionViewTransitionLayout and return here
+}
+*/
+
 #pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
