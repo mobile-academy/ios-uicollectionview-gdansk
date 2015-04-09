@@ -47,6 +47,7 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
     [super loadView];
     [self setupCollectionView];
     [self setupRefreshControl];
+    [self setupPinchRecogniser];
 }
 
 - (void)viewDidLoad{
@@ -57,6 +58,11 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
 - (void)setupCollectionView {
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self.collectionView registerClass:[PhotoStreamCell class] forCellWithReuseIdentifier:PhotoStreamViewControllerCellId];
+}
+
+- (void)setupPinchRecogniser {
+    UIPinchGestureRecognizer *pinchGestureRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(didPinch:)];
+    [self.collectionView addGestureRecognizer:pinchGestureRecognizer];
 }
 
 - (void)setupRefreshControl {
@@ -78,6 +84,29 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
 
 - (void)didPullToRefresh:(UIRefreshControl *)sender {
     [self.streamItemDownloader downloadStreamItems];
+}
+
+- (void)didPinch:(UIPinchGestureRecognizer *)recogniser {
+    CGFloat progress = recogniser.scale - 1.0f; //naive way
+    switch (recogniser.state) {
+        case UIGestureRecognizerStateBegan:
+            //TODO find index path for pinch and select item
+            //TODO start transition
+            //TODO save transition layout
+            break;
+        case UIGestureRecognizerStateChanged:
+            //TODO update transitionProgress and invalidateLayout
+            break;
+        case UIGestureRecognizerStateEnded:
+            //TODO finish transition if progress > 0.5
+            //TODO cancel transition if progress <= 0.5
+            break;
+        case UIGestureRecognizerStateCancelled:
+            //TODO cancel transition
+            break;
+        default:
+            break;
+    }
 }
 
 #pragma mark - UICollectionViewDataSource
