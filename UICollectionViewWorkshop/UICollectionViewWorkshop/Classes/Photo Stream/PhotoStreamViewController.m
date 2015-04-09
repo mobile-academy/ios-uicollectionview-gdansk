@@ -13,13 +13,14 @@
 @interface PhotoStreamViewController ()
 @property(nonatomic, strong) UIRefreshControl *refreshControl;
 @property(nonatomic, strong) NSMutableArray *streamItems;
+@property(nonatomic, strong) UICollectionViewTransitionLayout *transitionLayout;
 @end
 
 @implementation PhotoStreamViewController
 
 #pragma mark - Constants
 
-NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCellId";
+NSString *const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCellId";
 
 #pragma mark - Object life cycle
 
@@ -50,7 +51,7 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
     [self setupPinchRecogniser];
 }
 
-- (void)viewDidLoad{
+- (void)viewDidLoad {
     [super viewDidLoad];
     [self.streamItemDownloader downloadStreamItems];
 }
@@ -89,25 +90,41 @@ NSString * const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCe
 - (void)didPinch:(UIPinchGestureRecognizer *)recogniser {
     CGFloat progress = recogniser.scale - 1.0f; //naive way
     switch (recogniser.state) {
-        case UIGestureRecognizerStateBegan:
-            //TODO find index path for pinch and select item
-            //TODO start transition
-            //TODO save transition layout
+        case UIGestureRecognizerStateBegan: {
+            [self.collectionView selectItemAtIndexPath:[self indexPathForPinch:recogniser]
+                                              animated:NO
+                                        scrollPosition:UICollectionViewScrollPositionNone];
+            self.transitionLayout =
+                [self.collectionView startInteractiveTransitionToCollectionViewLayout:[StreamItemPreviewLayout new]
+                                                                           completion:^(BOOL completed, BOOL finished) {
+                                                                               self.transitionLayout = nil;
+                                                                           }];
+        }
             break;
         case UIGestureRecognizerStateChanged:
-            //TODO update transitionProgress and invalidateLayout
+            [self.transitionLayout setTransitionProgress:progress];
+            [self.transitionLayout invalidateLayout];
             break;
         case UIGestureRecognizerStateEnded:
-            //TODO finish transition if progress > 0.5
-            //TODO cancel transition if progress <= 0.5
+            if (progress > 0.5f) {
+                [self.collectionView finishInteractiveTransition];
+            } else {
+                [self.collectionView cancelInteractiveTransition];
+            }
             break;
         case UIGestureRecognizerStateCancelled:
-            //TODO cancel transition
+            [self.collectionView cancelInteractiveTransition];
             break;
         default:
             break;
     }
 }
+
+- (NSIndexPath *)indexPathForPinch:(UIPinchGestureRecognizer *)pinchGestureRecognizer {
+    CGPoint location = [pinchGestureRecognizer locationInView:self.collectionView];
+    return [self.collectionView indexPathForItemAtPoint:location];
+}
+
 
 #pragma mark - UICollectionViewDataSource
 
