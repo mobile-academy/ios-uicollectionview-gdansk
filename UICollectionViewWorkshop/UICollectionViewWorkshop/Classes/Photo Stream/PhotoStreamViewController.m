@@ -9,6 +9,7 @@
 #import "PhotoStreamCell.h"
 #import "StreamItemPreviewViewController.h"
 #import "StreamItemPreviewLayout.h"
+#import "MyCustomTransitionLayout.h"
 
 @interface PhotoStreamViewController ()
 @property(nonatomic, strong) UIRefreshControl *refreshControl;
@@ -139,13 +140,13 @@ NSString *const PhotoStreamViewControllerCellId = @"PhotoStreamViewControllerCel
     return cell;
 }
 
-/* TODO uncomment to return custom transition layout
+
 - (UICollectionViewTransitionLayout *)collectionView:(UICollectionView *)collectionView
                         transitionLayoutForOldLayout:(UICollectionViewLayout *)fromLayout
                                            newLayout:(UICollectionViewLayout *)toLayout {
-    return //TODO create a subclass of UICollectionViewTransitionLayout and return here
+    return [[MyCustomTransitionLayout alloc] initWithCurrentLayout:fromLayout nextLayout:toLayout];
 }
-*/
+
 
 #pragma mark - UICollectionViewDelegate
 

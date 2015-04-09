@@ -21,6 +21,7 @@
 		510431402D5A5CE3BD822955 /* ImageResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 510436E1AD26E20613D913A7 /* ImageResizer.m */; };
 		510431F55466141ED87AD9BE /* StreamItemPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043B34F597E81385E648CF /* StreamItemPreviewViewController.m */; };
 		510432C37C8B3CE25A3733C6 /* ConfigurationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104388F6E4183A44691835D /* ConfigurationFactory.m */; };
+		510432CA6534BFAD2A825FB3 /* MyCustomTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043823D74BFAF499B81D17 /* MyCustomTransitionLayout.m */; };
 		5104353B8C2F1B5FB56BB7E6 /* StreamItemPreviewViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 510431B1CC9E1F59FADDF1EF /* StreamItemPreviewViewControllerSpec.m */; };
 		5104380F6ECF25F455410B27 /* StreamItemCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51043BCD2C0969342D447145 /* StreamItemCreator.m */; };
 		51043822B6D4BA5874E0A2F0 /* Configurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5104377ED6A446BAFF080C47 /* Configurator.m */; };
@@ -97,6 +98,7 @@
 		431FE9C01AD2F6970099DB7B /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
 		4A5A0EE556C5D9E2E4DFB2E0 /* Pods-UICollectionViewWorkshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewWorkshopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewWorkshopTests/Pods-UICollectionViewWorkshopTests.release.xcconfig"; sourceTree = "<group>"; };
 		5104305E0B9136A77CFAC18E /* StreamItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItem.m; sourceTree = "<group>"; };
+		5104309B61971E4620DBA671 /* MyCustomTransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomTransitionLayout.h; sourceTree = "<group>"; };
 		510430FBDA40F6BFF19EBCD5 /* StreamItemTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemTransformer.m; sourceTree = "<group>"; };
 		510431885F81B54FAA88F548 /* StreamItemUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamItemUploader.h; sourceTree = "<group>"; };
 		510431B1CC9E1F59FADDF1EF /* StreamItemPreviewViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamItemPreviewViewControllerSpec.m; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		510436E1AD26E20613D913A7 /* ImageResizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageResizer.m; sourceTree = "<group>"; };
 		5104377ED6A446BAFF080C47 /* Configurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configurator.m; sourceTree = "<group>"; };
 		510437BD27C2A8D1B1CC4AF5 /* PhotoStreamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoStreamCell.m; sourceTree = "<group>"; };
+		51043823D74BFAF499B81D17 /* MyCustomTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomTransitionLayout.m; sourceTree = "<group>"; };
 		5104385FA199CEE4403F3B5F /* Specs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specs.h; sourceTree = "<group>"; };
 		5104388F6E4183A44691835D /* ConfigurationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationFactory.m; sourceTree = "<group>"; };
 		510438CF164155B6ED7F3A96 /* GdanskConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GdanskConfiguration.h; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				510437BD27C2A8D1B1CC4AF5 /* PhotoStreamCell.m */,
 				51043A6CFD385632BA60148C /* PhotoStreamLayout.h */,
 				51043E430B6E7119BB5F140D /* PhotoStreamLayout.m */,
+				51043823D74BFAF499B81D17 /* MyCustomTransitionLayout.m */,
+				5104309B61971E4620DBA671 /* MyCustomTransitionLayout.h */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -803,6 +808,7 @@
 				51043822B6D4BA5874E0A2F0 /* Configurator.m in Sources */,
 				510432C37C8B3CE25A3733C6 /* ConfigurationFactory.m in Sources */,
 				51043E7565828C559CEB84E7 /* StreamItemPreviewLayout.m in Sources */,
+				510432CA6534BFAD2A825FB3 /* MyCustomTransitionLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
