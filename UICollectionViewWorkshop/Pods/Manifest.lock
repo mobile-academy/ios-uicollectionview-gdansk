@@ -1,13 +1,13 @@
 PODS:
   - Bolts (1.1.4)
-  - Expecta (0.3.2)
+  - Expecta (0.4.0)
   - MTDates (1.0.1)
   - OCHamcrest (4.1.1)
   - OCMockito (1.4.0):
     - OCHamcrest (~> 4.0)
-  - Parse (1.7.0):
+  - Parse (1.7.1):
     - Bolts (~> 1.1)
-  - Specta (0.4.0)
+  - Specta (0.5.0)
 
 DEPENDENCIES:
   - Expecta
@@ -18,11 +18,11 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Bolts: f8e2f94edbf9fec7bb8de5ecaaa3aa6b7de6f64e
-  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
+  Expecta: 392a6b5bfb9f4097e47dd8064d9b732079490332
   MTDates: f51fbd9163ad5a379243e08fd63cafb5a5135a29
   OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
   OCMockito: 4981140c9a9ec06c31af40f636e3c0f25f27e6b2
-  Parse: 3c2d4e6ade7b59d31c0bc8106340c6b81b31bc0f
-  Specta: a353759f073ffcc0a365b782fe4aaeac064c03c6
+  Parse: fa8ec29de6d82035635986c11946299fb1b38316
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
 
-COCOAPODS: 0.36.0.beta.2
+COCOAPODS: 0.36.3
