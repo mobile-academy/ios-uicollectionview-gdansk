@@ -55,7 +55,6 @@
 		81086BA5B8E73F54385028B1 /* SpeakersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108685E9516D8C4DEEC0940 /* SpeakersDataSource.m */; };
 		81086D74BA0A9B9552EC96D9 /* sp_5-04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81086407E224A9D80A4DD614 /* sp_5-04.jpg */; };
 		81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CB20810D2B420B9E4B5 /* CarouselViewController.m */; };
-		81086F3DBE6147A85C734DF6 /* DynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8108623058D0F9B1F24412F8 /* DynamicsViewController.m */; };
 		945E9F3D1AD446A500A68D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945E9F3C1AD446A500A68D35 /* UIKit.framework */; };
 		945E9F3F1AD446A900A68D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945E9F3E1AD446A900A68D35 /* Foundation.framework */; };
 		972A359A1137D63A3C6F3FBC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D63FB47D33D3F9EF6E8F593 /* libPods.a */; };
@@ -131,7 +130,6 @@
 		8108605A6E72E491C9611B40 /* PhoneRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneRootTabBarController.m; sourceTree = "<group>"; };
 		8108609DEDBC2BBDE44519FA /* sp_6-05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_6-05.jpg"; sourceTree = "<group>"; };
 		81086225D43D669C0428417E /* SpeakerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerCollectionViewCell.m; sourceTree = "<group>"; };
-		8108623058D0F9B1F24412F8 /* DynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicsViewController.m; sourceTree = "<group>"; };
 		81086272E41ADA7B8B749177 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
 		810862D5C3FB4D905A7BD699 /* sp_41-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_41-10.jpg"; sourceTree = "<group>"; };
 		810862D7528CC5CA5330B476 /* sp_3-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_3-03.jpg"; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 		81086ABC73E2AC7081DCD5C4 /* sp_1-06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sp_1-06.jpg"; sourceTree = "<group>"; };
 		81086B9404D08143A9057878 /* SpeakerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerItem.h; sourceTree = "<group>"; };
 		81086BBF3C84AF9BFC915C69 /* wijas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wijas.jpg; sourceTree = "<group>"; };
-		81086BC92BA5B8D91EF14A15 /* DynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicsViewController.h; sourceTree = "<group>"; };
 		81086CB20810D2B420B9E4B5 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		81086DC925E7B10209B0C900 /* UINavigationController+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Utilities.m"; sourceTree = "<group>"; };
 		81086EED136EBB398BD31B5E /* SpeakersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersViewController.m; sourceTree = "<group>"; };
@@ -292,15 +289,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8108619B691A67AB7B04BD55 /* Dynamics */ = {
-			isa = PBXGroup;
-			children = (
-				8108623058D0F9B1F24412F8 /* DynamicsViewController.m */,
-				81086BC92BA5B8D91EF14A15 /* DynamicsViewController.h */,
-			);
-			path = Dynamics;
-			sourceTree = "<group>";
-		};
 		8108635CD52DF2195051533A /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,7 +303,6 @@
 			children = (
 				B27A95C09D6248AA00BB1726 /* Calendar */,
 				81086DDEAEE41DBD94D72E3A /* Carousel */,
-				8108619B691A67AB7B04BD55 /* Dynamics */,
 				81086E2785581C556E5AA1F7 /* Speakers */,
 				81086B8EAFE8CB1B4AF8A955 /* TabBarControllers */,
 				81086A28AE1D249787AB5E04 /* Utils */,
@@ -750,7 +737,6 @@
 				81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */,
 				431FE9C11AD2F6970099DB7B /* CalendarCollectionViewCell.m in Sources */,
 				431FE9B81AD2F46E0099DB7B /* CalendarLayoutAttributes.m in Sources */,
-				81086F3DBE6147A85C734DF6 /* DynamicsViewController.m in Sources */,
 				431FE9BD1AD2F66C0099DB7B /* CalendarEventsProvider.m in Sources */,
 				81086318A391B191475AE203 /* UIColor+Workshop.m in Sources */,
 				431FE9BE1AD2F66C0099DB7B /* ExampleCalendarEvent.m in Sources */,

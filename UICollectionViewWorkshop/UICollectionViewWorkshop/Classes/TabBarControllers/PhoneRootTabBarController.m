@@ -6,7 +6,6 @@
 #import "SpeakersViewController.h"
 #import "CarouselViewController.h"
 #import "PhotoStreamViewController.h"
-#import "DynamicsViewController.h"
 #import "UINavigationController+Utilities.h"
 #import "SpeakersDataSource.h"
 #import "CalendarViewController.h"
@@ -19,8 +18,7 @@
     self.viewControllers = @[
             [UINavigationController withController:[SpeakersViewController withDataSource:[SpeakersDataSource new]]],
             [UINavigationController withController:[self calendarViewController]],
-            [UINavigationController withController:[PhotoStreamViewController new]],
-            [UINavigationController withController:[DynamicsViewController new]],
+            [UINavigationController withController:[PhotoStreamViewController new]]
     ];
 
 }
