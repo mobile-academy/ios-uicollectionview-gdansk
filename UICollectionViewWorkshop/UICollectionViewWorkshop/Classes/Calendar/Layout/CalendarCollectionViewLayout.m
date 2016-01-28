@@ -90,7 +90,7 @@ NSString *const CalendarCollectionViewLayoutDecorationKindSeparator = @"Calendar
 - (void)calculateSeparatorsLayoutAttributes {
     NSMutableArray *separatorAttributes = [NSMutableArray array];
 
-    NSInteger numberOfFullHours = [self.startOfDisplayedDay mt_hoursUntilDate:self.endOfDisplayedDay] + 1;
+    NSInteger __unused numberOfFullHours = [self.startOfDisplayedDay mt_hoursUntilDate:self.endOfDisplayedDay] + 1;
     // TODO Assignment 3: Calculate separator layout attributes based on number of full hours (include half hour separators as well!)
 
     self.cachedSeparatorsAttributes = [separatorAttributes copy];
