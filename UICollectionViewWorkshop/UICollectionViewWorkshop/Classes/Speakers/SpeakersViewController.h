@@ -15,6 +15,6 @@
 @property(nonatomic, strong, readonly) SpeakersDataSource *dataSource;
 
 + (instancetype)withDataSource:(SpeakersDataSource *)dataSource;
-- (instancetype)initWithDataSource:(SpeakersDataSource *)dataSource NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithDataSource:(SpeakersDataSource *)dataSource;
 
 @end

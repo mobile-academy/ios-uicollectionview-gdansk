@@ -23,7 +23,7 @@
 }
 
 - (instancetype)initWithDataSource:(SpeakersDataSource *)dataSource {
-    self = [super init];
+    self = [super initWithNibName:nil bundle:nil];
     if (self) {
         _dataSource = dataSource;
         self.title = @"Speakers";
