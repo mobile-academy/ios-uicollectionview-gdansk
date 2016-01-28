@@ -557,6 +557,7 @@
 				A107AB471AC4A12500C6C6A2 /* Frameworks */,
 				A107AB481AC4A12500C6C6A2 /* Resources */,
 				E2C323A4B8E15F5528F52D58 /* Copy Pods Resources */,
+				42EEA4B93B82BE418968F880 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -576,6 +577,7 @@
 				A107AB601AC4A12500C6C6A2 /* Frameworks */,
 				A107AB611AC4A12500C6C6A2 /* Resources */,
 				20A2E02A247E477295AFF801 /* Copy Pods Resources */,
+				03DA155960264F192353FEDA /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -661,6 +663,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03DA155960264F192353FEDA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionViewWorkshopTests/Pods-UICollectionViewWorkshopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		20A2E02A247E477295AFF801 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -674,6 +691,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionViewWorkshopTests/Pods-UICollectionViewWorkshopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EEA4B93B82BE418968F880 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A3A4F8B4C5039A81779A15B /* Check Pods Manifest.lock */ = {
