@@ -5,7 +5,7 @@
 
 #import "ConfigurationFactory.h"
 #import "Configuration.h"
-#import "AbstractConfiguration.h"
+#import "GdanskConfiguration.h"
 
 
 @interface ConfigurationFactory ()
@@ -22,7 +22,7 @@
     if (self) {
         self.mappingKey = [[NSBundle mainBundle] bundleIdentifier];
         self.configurationMapping = @{
-            @"io.mobile-academy.UICollectionViewWorkshop" : [AbstractConfiguration class]
+            @"io.mobile-academy.UICollectionViewWorkshop" : [GdanskConfiguration class]
         };
     }
     return self;

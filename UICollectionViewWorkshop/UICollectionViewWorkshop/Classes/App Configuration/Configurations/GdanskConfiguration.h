@@ -7,5 +7,5 @@
 #import "Configuration.h"
 
 
-@interface AbstractConfiguration : NSObject <Configuration>
+@interface GdanskConfiguration : NSObject <Configuration>
 @end
