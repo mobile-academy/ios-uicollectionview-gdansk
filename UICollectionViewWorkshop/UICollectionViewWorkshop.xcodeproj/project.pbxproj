@@ -57,6 +57,7 @@
 		81086EEC247EB337DDF51858 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81086CB20810D2B420B9E4B5 /* CarouselViewController.m */; };
 		945E9F3D1AD446A500A68D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945E9F3C1AD446A500A68D35 /* UIKit.framework */; };
 		945E9F3F1AD446A900A68D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945E9F3E1AD446A900A68D35 /* Foundation.framework */; };
+		94F794C31C5CAA52000E18AA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F794C21C5CAA52000E18AA /* Launch Screen.storyboard */; };
 		972A359A1137D63A3C6F3FBC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D63FB47D33D3F9EF6E8F593 /* libPods.a */; };
 		A107AB501AC4A12500C6C6A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A107AB4F1AC4A12500C6C6A2 /* main.m */; };
 		A107AB531AC4A12500C6C6A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A107AB521AC4A12500C6C6A2 /* AppDelegate.m */; };
@@ -162,6 +163,7 @@
 		81086EF85DAEC9E8D184BD00 /* dudek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dudek.jpg; sourceTree = "<group>"; };
 		945E9F3C1AD446A500A68D35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		945E9F3E1AD446A900A68D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94F794C21C5CAA52000E18AA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A107AB4A1AC4A12500C6C6A2 /* UICollectionViewWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A107AB4E1AC4A12500C6C6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A107AB4F1AC4A12500C6C6A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -429,6 +431,7 @@
 				A107AB4D1AC4A12500C6C6A2 /* Supporting Files */,
 				8108649CEDED17A5B408F232 /* Classes */,
 				A165BC101AC4A9D000B1C426 /* Images.xcassets */,
+				94F794C21C5CAA52000E18AA /* Launch Screen.storyboard */,
 			);
 			path = UICollectionViewWorkshop;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				81086D74BA0A9B9552EC96D9 /* sp_5-04.jpg in Resources */,
 				810861E5845F80CF942181A9 /* sp_6-05.jpg in Resources */,
 				81086170A71C2A9E2EF190B3 /* sp_1-01.jpg in Resources */,
+				94F794C31C5CAA52000E18AA /* Launch Screen.storyboard in Resources */,
 				51043EE482F303BAC596B8DA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
